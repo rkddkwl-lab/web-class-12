@@ -1,0 +1,13 @@
+body div h1#b {
+    color: #a2c5ac;
+    font-size: 30px;
+    background-color: green;
+}
+h1#b{color: red;}
+#b{color: blue;}
+div h1.a{color: red;}
+h1.a{color: blue;}
+.a{color: red;}
+h1{color: red;}
+h1{color: blue;}
+
