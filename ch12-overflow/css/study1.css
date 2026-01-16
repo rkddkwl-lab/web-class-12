@@ -1,0 +1,59 @@
+.a{
+    border: 10px solid red;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+.b{
+    border: 10px solid blue;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 500px;
+}
+.c{
+    border: 10px solid black;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+}
+.d{
+    /* 외우지말고 복사해서 쓸 것 */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 10px solid green;
+    width: 300px;
+}
+
+/* 외우지 말 것 */
+.e::-webkit-scrollbar{
+    width: 20px;
+    height: 20px;
+}
+.e::-webkit-scrollbar-thumb{
+    background: red;
+}
+.e::-webkit-scrollbar-track{
+    background-color: aqua;
+}
+.e{
+    border: 10px solid coral;
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+}
+.e::-webkit-scrollbar{
+    width: 20px;
+    height: 20px;
+}
+.e::-webkit-scrollbar-thumb{
+    background: goldenrod;
+    border-radius: 6px;
+}
+.e::-webkit-scrollbar-track{
+    background-color: darkcyan;
+}

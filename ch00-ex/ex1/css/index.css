@@ -1,7 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
+
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
 }
+
 @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
@@ -64,62 +66,41 @@
     font-weight: 900;
     font-display: swap;
 }
-@font-face{
-    font-family: "풀무원";
-    src: url(../font/PulmuoneLOHASBold.woff);
+.inner-frame{
+    border: 1px solid red;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 3.75rem;
+    text-align: center;
+}
+.inner-frame h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    line-height: 1;
+}
+.desc{
+    margin-bottom: 5rem;
+    line-height: 140%;
 }
 
-.pul{
-    font-family: "풀무원";
-}
-
-html{
-    font-family: 'Pretendard',sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-}
 .banner{
-    height: 250px;
-    background: url(../img/sub_vis01_02.jpg) no-repeat 50% 50% / cover;
-    margin-bottom: 50px;
+    height: 440px;
+    background: url(../img/5d106bfeedc73ee72734dc3aeb348f9c8f2b4490.jpg) no-repeat 50% 50% / cover;
+    margin-bottom: 5rem;
 }
-main{
-    
-    width: 1200px;
-    margin: 0 auto;
+.inner-frame h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: .5rem 0;
+    margin-bottom: 1rem;
 }
-main h1{
-    
-    margin-bottom: 100px;
-    font-weight: 400;
-    font-size: 30px;
-    background: url("../img/sub_tit_line.gif") repeat-x 0 50%;
+.values li{
+    margin-bottom: .5rem;
 }
-main h1 span{
-    background-color: white;
-    padding-right: 30px;
-}
-main h2{
-    
-    font-size: 52px;
-    text-align: center;
-    padding:0 70px;
-    margin-bottom: 50px;    
-}
-main h2 em{
-    font-style: normal;
-    color: #7eae4b;
-}
-.content{
-    box-sizing: border-box;
-    padding: 10px 665px;
-    margin: 0 auto;
-    text-align: center;
-}
-.content h3{
-    font-size: 35px;
-    margin-bottom: 25px;
-}
-.content h3+p{
-    margin-bottom: 30px;
+.values li:last-of-type{
+    margin-bottom: 0;
 }
