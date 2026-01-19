@@ -1,0 +1,69 @@
+*{margin: 0;padding: 0;}
+.box1{
+    background-color: gray;
+    width: 800px;
+    height: 100px;
+    display: flex;
+}
+.a{ 
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.b{
+    background-color: green;
+}
+.c{
+    background-color: blue;
+}
+.d{
+    background-color: gold;
+}
+.e{
+    background-color: pink;
+}
+.box1 div{
+    width: 100px;
+    height: 100px;
+}
+
+.box2{
+    background-color: gray;
+    width: 800px;
+    height: 100px;
+    display: flex;
+}
+.box2 div{
+    width: 100px;
+    height: 100px;
+}
+.box .a{order: 2;}
+.box .b{order: 4;}
+.box .c{order: 1;}
+.box .d{order: 5;}
+.box .e{order: 3;}
+
+.box3{
+    background-color: gray;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.box3 div{
+    width: 100px;
+    height: 100px;
+}
+
+.box4{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 div{
+    width: 100px;
+    height: 100px;
+}
