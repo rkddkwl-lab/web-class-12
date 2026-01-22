@@ -1,4 +1,7 @@
 *{margin: 0;padding: 0;}
+.box{
+    margin-top: 100px;
+}
 .box1{
     background-color: gray;
     width: 800px;
@@ -12,15 +15,23 @@
 }
 .b{
     background-color: green;
+    padding: 20px;
+    box-sizing: border-box;
 }
 .c{
     background-color: blue;
+    padding: 20px;
+    box-sizing: border-box;
 }
 .d{
     background-color: gold;
+    padding: 20px;
+    box-sizing: border-box;
 }
 .e{
     background-color: pink;
+    padding: 20px;
+    box-sizing: border-box;
 }
 .box1 div{
     width: 100px;
@@ -37,11 +48,6 @@
     width: 100px;
     height: 100px;
 }
-.box .a{order: 2;}
-.box .b{order: 4;}
-.box .c{order: 1;}
-.box .d{order: 5;}
-.box .e{order: 3;}
 
 .box3{
     background-color: gray;
@@ -64,6 +70,157 @@
     align-items: center;
 }
 .box4 div{
+    width: 100px;
+    height: 100px;
+}
+
+.box5{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    align-items: end;
+}
+.box5 div{
+    width: 100px;
+    height: 100px;
+}
+.box5 .a{order: 5;}
+.box5 .b{order: 4;}
+.box5 .c{order: 3;}
+.box5 .d{order: 2;}
+.box5 .e{order: 1;}
+
+.box6{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box6 div{
+    width: 400px;
+    height: 100px;
+}
+
+.box7{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.box7 div{
+    width: 100px;
+    height: 100px;
+}
+.box8{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.box8 div{
+    width: 100px;
+    height: 100px;
+    
+}
+.box8-1{
+    display: flex;
+}
+.box8-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box9{
+    width: 800px;
+    height: 300px;
+    display: flex;
+}
+
+.box9-1{
+    display: flex;
+    width: 500px;
+}
+.box9-1 div{
+    flex: 1;
+}
+.box9-2 div{
+    width: 300px;
+    height: 100px;
+}
+
+.box10{
+    width: 800px;
+    height: 300px;
+    display: flex;
+}
+.box10-1{
+    width: 250px;
+}
+.box10-3{
+    width: 250px;
+}
+.box10-2{
+    width: 300px;
+}
+.box10-2 .c{
+    height: 100px;
+}
+.box10-2-1{
+    display: flex;
+}
+.box10-2-1 div{
+    flex: 1;
+    height: 200px;
+}
+
+.box11{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box11 section{
+    width: 200px;
+}
+.box11 .a,
+.box11 .b{
+    height: 100px;
+}
+.box11-2 .c,
+.box11-2 .d{
+    width: 100px;
+    height: 100px;
+}
+.box11-2{
+    display: flex;
+}
+.box11 .e{
+    height: 100%;
+}
+
+.box12{
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box12 .e{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box12 .e div{
     width: 100px;
     height: 100px;
 }

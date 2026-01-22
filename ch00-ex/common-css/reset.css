@@ -17,3 +17,9 @@ ul,ol{
 address{
     font-style: inherit;
 }
+em,address,i{
+    font-style: initial;
+}
+strong,b{
+    font-weight: inherit;
+}
