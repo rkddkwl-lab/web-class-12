@@ -5,7 +5,7 @@ html{
 }
 
 header{
-    
+    border-bottom: 2px solid #BE0707;
 }
 .common-frame{
     width: 1600px;
