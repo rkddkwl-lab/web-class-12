@@ -146,3 +146,72 @@
     top: calc(50% - 50px);
     position: absolute;
 }
+
+.ex5{
+    position: relative;
+}
+.ex5>div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.ex5 .a{
+    top: -100px;
+    left: -100px;
+    z-index: 1;
+}
+.ex5 .b{
+    top: -50px;
+    left: -50px;
+}
+.ex5 .c{
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.ex5 .d{
+    top: 50px;
+    left: 50px;
+}
+.ex5 .e{
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.ex6{
+    display: flex;
+}
+.ex6>div{
+    flex: 1;
+}
+.ex6 .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ex6 .b{
+    position: relative;
+}
+.ex6 .c{
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+.ex6 .d{
+    width: 100px;
+    height: 50px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+}
+.ex6 .e{
+    width: 100px;
+    height: 50px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}

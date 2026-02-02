@@ -1,0 +1,90 @@
+html{
+    font-size: 20px;
+    font-family: 'Pretendard',sans-serif;
+    font-weight: 400;
+}
+
+header{
+    width: 100vw;
+    border-bottom: 2px solid #BE0707;
+    position: fixed;
+}
+.common-frame{
+    width: 1600px;
+    height: 100px;
+    margin: 0 auto;
+}
+header .common-frame{
+    display: flex;
+    justify-content: space-between;
+}
+.lnb{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+.lnb li a{
+    height: 30px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+.gnb{
+    display: flex;
+}
+.gnb li a{
+    display: flex;
+    width: 138px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+.banner{
+    height: 963px;
+    background: url("../img/bebbaa7230b9952d6a79aecd750de8d322879c12.jpg") no-repeat 50% 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.banner h1{
+    color: white;
+    font-size: 7.5rem;
+    text-transform: uppercase;
+    width: 1600px;
+}
+h2{
+    width: 1600;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+.banner2{
+    width: 1600px;
+    height: 441px;
+    background: url("../img/asd.jpg") no-repeat 50% 50% / cover;
+    margin: 0 auto;
+    margin-bottom: 155px;
+}
