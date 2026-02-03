@@ -5,9 +5,11 @@ html{
 }
 
 header{
-    width: 100vw;
+    width: 100%;
     border-bottom: 2px solid #BE0707;
     position: fixed;
+    left: 0;
+    top: 0;
 }
 .common-frame{
     width: 1600px;
@@ -18,40 +20,46 @@ header .common-frame{
     display: flex;
     justify-content: space-between;
 }
+nav{
+    width: 966px;
+}
 .lnb{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    align-items: center;
     gap: 1rem;
-}
-.lnb li a{
     height: 30px;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.lnb li{
     padding: 0 1rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 400;
-    font-size: 16px;
     line-height: 100%;
-    text-transform: uppercase;
     color: white;
 }
 .gnb{
     display: flex;
+    height: 70px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .9rem;
+    line-height: 100%;
+}
+.gnb li{
+     flex: 1;
 }
 .gnb li a{
     display: flex;
     width: 138px;
-    height: 70px;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 100%;
+    height: 100px;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
     color: white;
 }
 .banner{
-    height: 963px;
+    height: 100vh;
     background: url("../img/bebbaa7230b9952d6a79aecd750de8d322879c12.jpg") no-repeat 50% 50% / cover;
     display: flex;
     justify-content: center;
@@ -60,13 +68,12 @@ header .common-frame{
 }
 .banner h1{
     color: white;
-    font-size: 7.5rem;
+    font-size: 7rem;
     text-transform: uppercase;
     width: 1600px;
+    line-height: 90%;
 }
 h2{
-    width: 1600;
-    font-weight: 400;
     font-size: 60px;
     line-height: 100%;
     text-align: center;
@@ -74,9 +81,7 @@ h2{
     margin-bottom: 1rem;
 }
 p{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
+    line-height: 140%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 4rem;
@@ -84,7 +89,10 @@ p{
 .banner2{
     width: 1600px;
     height: 441px;
-    background: url("../img/asd.jpg") no-repeat 50% 50% / cover;
     margin: 0 auto;
-    margin-bottom: 155px;
+}
+.banner2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
