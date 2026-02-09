@@ -1,0 +1,11 @@
+@media (max-width:768px){
+    html{
+        font-size: var(--base-mo);
+    }
+    .inner-frame {
+    border: 1px solid red;
+    width: auto;
+    margin: 0 1rem;
+    margin-top: 3.75rem;
+}
+}

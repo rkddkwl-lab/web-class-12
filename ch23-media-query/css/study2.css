@@ -1,0 +1,15 @@
+@media (max-width:1920px){
+    .containar{
+        background-color: red;
+    }
+}
+@media (max-width:1024px){
+    .containar{
+        background-color: blue;
+    }
+}
+@media (max-width:768px){
+    .containar{
+        background-color: green;
+    }
+}
