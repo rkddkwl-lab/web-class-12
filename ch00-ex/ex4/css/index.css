@@ -1,83 +1,154 @@
-html{
-    font-size: 20px;
+:root{
+    --base-pc:20px;
+    --base-pad:18px;
+    --base-mo:14px;
+}
+@media(max-width: 1920px){
+    html{
+    font-size: var(--base-pc);
     font-family: 'Pretendard',sans-serif;
     font-weight: 400;
-}
-.abo{
-  font-family: "Aboreto", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-.banner{
-    border: 1px solid red;
-    height: 599px;
-    background: url("../img/adb2968ec7a931b51bc30a08b2ab46a3d26b1388.jpg") no-repeat 50% 50% / cover;
-    border-radius: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 6rem;
-}
-.banner h1{
-    font-size: 2.5rem;
-    line-height: 100%;
-    text-transform: uppercase;
-    color: white;
-}
-.container{
-    border: 1px solid red;
-    width: 1600px;
-    margin: 0 auto;
-    padding-top: 6rem;
-}
-h2.title{
-    font-size: 7.5rem;
-    line-height: 90%;
-    text-transform: uppercase;
-}
-p.tle{
-    line-height: 140%;
-    text-transform: uppercase;
-    margin: 2.4rem 0;
-}
-.cafe-gal{
-    display: flex;
-    gap: 1rem;
-}
-.cafe-gal figure{
-    flex: 1;
-    aspect-ratio: 520/434;
-    line-height: 0;
-    margin-bottom: 2rem;
-}
-.cafe-gal figure img{
-    max-width: 100%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-}
-.container h3{
-    font-size: 2rem;
-    line-height: 140%;
-    text-align: center;
-    text-transform: lowercase;
-}
-.container p{
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 2rem;
-}
-.cafe-gal2{
-    display: flex;
-    gap: 1rem;
+    }
+    .abo{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .banner{
+        border: 1px solid red;
+        height: 599px;
+        background: url("../img/adb2968ec7a931b51bc30a08b2ab46a3d26b1388.jpg") no-repeat 50% 50% / cover;
+        border-radius: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6rem;
+    }
+    .banner h1{
+        font-size: 2.5rem;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: white;
+    }
+    .container{
+        border: 1px solid red;
+        width: 1600px;
+        margin: 0 auto;
+        padding-top: 6rem;
+    }
+    h2.title{
+        font-size: 7.5rem;
+        line-height: 90%;
+        text-transform: uppercase;
+    }
+    p.tle{
+        line-height: 140%;
+        text-transform: uppercase;
+        margin: 2.4rem 0;
+    }
+    .cafe-gal{
+        display: flex;
+        gap: 1rem;
+    }
+    .cafe-gal figure{
+        flex: 1;
+        aspect-ratio: 520/434;
+        line-height: 0;
+        margin-bottom: 2rem;
+    }
+    .cafe-gal figure img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 2rem;
+        border-radius: 1rem;
+    }
+    .container h3{
+        font-size: 2rem;
+        line-height: 140%;
+        text-align: center;
+        text-transform: lowercase;
+    }
+    .container p{
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+    }
+    .cafe-gal2{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cafe-gal.type2 figure{
+        display: flex;
+        aspect-ratio: 790/434;
+    }
+    .wrap{
+        background: url("../img/bg.png") no-repeat 50% 0% / 100% auto;
+    }
+
 }
 
-.cafe-gal.type2 figure{
+@media(max-width: 1024px){
+    html{
+        font-size: var(--base-pad);
+    }
+    .container{
+    width: auto;
+    margin: 0 2rem;
+    }
+    .banner h1{
+        font-size: 45px;
+    }
+    h2.title {
+        font-size: 80px;
+    }
+    .cafe-gal figure{
+        flex: 1;
+        aspect-ratio: 305.33/305.33;
+        line-height: 0;
+    }
+    .cafe-gal.type2 figure{
     display: flex;
-    aspect-ratio: 790/434;
+    aspect-ratio: 467/434;
+    height: 434px;
+    }
 }
-.wrap{
-    background: url("../img/bg.png") no-repeat 50% 0% / 100% auto;
+
+@media(max-width: 768px){
+    html{
+        font-size: var(--base-mo);
+    }
+    .container{
+        width: auto;
+        margin: 0 2rem;
+    }
+    .banner h1{
+        font-size: 35px;
+    }
+    h2.title {
+        font-size: 50px;
+    }
+    .cafe-gal{
+        
+    }
+    .cafe-gal figure{
+        flex: 1;
+        aspect-ratio: 175/150;
+        height: 150px;
+        line-height: 0;
+    }
+    .cafe-gal figure :last-of-type{
+        flex: 1;
+        aspect-ratio: 365/150;
+    }
+    .cafe-gal.type2{
+        flex-direction: column;
+    }
+    .cafe-gal.type2 figure{
+    flex-basis: 100%;
+    aspect-ratio: 365/150;
+    height: 150px;
+    }
 }

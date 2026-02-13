@@ -16,7 +16,6 @@
         background: url("../img/7247350364b9abd890d544b50b85e6093c349f17.png") no-repeat 50% 50% / cover; 
     }
     .banner h1{
-        border: 1px solid lime;
         text-align: center;
         color: white;
         font-size: 2.5rem;
@@ -43,11 +42,9 @@
         text-align: right;
         padding: 1rem 0;
         margin-bottom: 3rem;
-        font-family: 'Pretendard', sans-serif;
     }
     .content figure{
         border: 1px solid green;
-        font-family: 'Pretendard', sans-serif;
     }
     .content figure img{
         width: 1000px;
