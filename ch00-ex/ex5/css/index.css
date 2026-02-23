@@ -1,3 +1,8 @@
+:root{
+    --base-pc:20px;
+    --base-pad:18px;
+    --base-mo:14px;
+}
 html{
     font-size: 20px;
     font-family: 'Pretendard',sans-serif;
@@ -81,4 +86,45 @@ html{
     -webkit-line-clamp: 2;                /* 보여줄 최대 줄 수 */
     overflow: hidden;                     /* 넘치는 내용 숨기기 */
     text-overflow: ellipsis;              /* 말줄임 표기(보조) */
+}
+@media(max-width: 1920px){
+    html{
+        font-size: var(--base-pc);
+    }
+}
+@media(max-width:1024px){
+    html{
+        font-size: var(--base-pad);
+    }
+    .common-flame{
+        width: 952px;
+    }
+    .banner{
+        height: 600px;
+    }
+    .banner h2{
+    font-size: 4.4rem;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: var(--base-mo);
+    }
+    .common-flame{
+        width: 393px;
+    }
+    .banner{
+        height: 500px;
+    }
+    .banner h2{
+    font-size: 3.5rem;
+    }
+    .gallery{
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .gallery figure{
+    aspect-ratio: 365/364.07;
+    }
 }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열</title>
+</head>
+<body>
+    <script>
+        let a = ["사과","배","귤","수박"] // "원소" 사과는 0번째 원소 배는 첫번째 원소 귤은 두번째 수박은 세번째 원소
+        console.log (a[0][1]) // 인덱스박스 "과"
+        console.log (a[2])
+        // "강건희"[0]
+        // "강건희".length
+        console.log(a.length)
+        let b = [1,2,3,4][3]
+        a[b[3]] //undifined
+        let c = [
+            "장윤서",
+            "이은지",
+            "김선영",
+            "김가희",
+            "최예슬"
+        ]
+        c[0] // "장윤서"
+        c[4] // "최예슬"
+        c[1].length // "3"
+        c[2][1]+c[3][2]
+        (!c[3]||!c[4]||c[1])[0]
+        
+        let d = 0||0||1
+
+        let person1 = ["강건희","남자","intp",170,66,false,["게임","볼링","운동"]]
+        person1[0] // "강건희"
+        person1[3] // "170"
+        person1[5]?"기혼":"미혼" // "미혼"
+        person1[6][2][1] // "동"
+    </script>
+</body>
+</html>
