@@ -1,3 +1,8 @@
+:root{
+    --base-pc:20px;
+    --base-pad:18px;
+    --base-mo:14px;
+}
 html{
     font-size: 20px;
     font-family: 'Pretendard',sans-serif;
@@ -10,7 +15,6 @@ header{
 .common-frame{
     width: 1600px;
     margin: 0 auto;
-    
 }
 header .common-frame{
     display: flex;
@@ -42,5 +46,31 @@ header .common-frame{
     color: white;
     font-size: 7.5rem;
     text-transform: uppercase;
+}
+@media(max-width:1920px){
+    html{
+        font-size: var(--base-pc);
+    }
+}
+@media(max-width:1024px){
+    html{
+        font-size: var(--base-pad);
+    }
+    .common-frame{
+        width: auto;
+        margin: 2rem;
+    }
+    .banner {
+    height: 600px;
+    background: url("../img/a3617562ae2b735376bdc4f6021710d549df4d79.jpg") no-repeat 50% 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .banner h1 {
+    color: white;
+    font-size: 4.4rem;
+    text-transform: uppercase;
+    }
 }
 

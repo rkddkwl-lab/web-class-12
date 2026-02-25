@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    <h1>객체 - object</h1>
+    <p>자바스크립트에서 사물을 나타낼 때 사용하는 표현</p>
+    <p>그리고 각각의 프로퍼티는 :(콜론)을 사용하여 key:value형태로 구성되어 있다</p>
+    <p>여기서 key값을 사용하여 저장된 value값을 가져올 수 있다. key값은 객체안의 속해있는 변수처럼 활용된다.</p>
+    <script>
+        // {} 객체는 오브젝트
+        // [] 배열은 어레이
+        let person1 = ["정현진","남자",50]
+        console.log(person1[0])
+        let person2 = {name:"정현진",gender:"남자",age:50}
+        console.log(person2["name"]) // 이 표현도 경우의 수에 따라 쓰기도해서 알아야한다.
+        console.log(person2.name) //보통은 이 표현으로 많이 쓴다.
+        // 객체의 값은 key값으로 저장한다.
+        //property = 콤마로 구분되는 모든 걸 말하고 name , gender , age는 key라고 칭하며 "정현진","남자",50은 value이다.
+        let person3 = {name:"장윤서",gender:"여자",age:"27"}
+        // person3.name[1] // "윤"
+        // person3.gender.length-2?"A":"B" // "B"
+
+    </script>
+</body>
+</html>
